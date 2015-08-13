@@ -1,0 +1,46 @@
+$icon-font-path: "../bower_components/bootstrap-sass/assets/fonts/bootstrap/";
+
+// bower:scss
+@import "bower_components/bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+// endbower
+
+body{
+  padding:0;
+  margin:0;
+}
+.header{
+  text-align: center;
+  padding: 2em 0.5em;
+}
+
+.container-fluid {
+  padding: 0;
+}
+
+.footer {
+  text-align: center;
+  color: #999;
+  .glyphicon{
+    font-size: 66%;
+    color: #ccc;
+  }
+}
+
+.toc {
+  font-size: 2.0em;
+  ol {
+    font-weight: 900;
+    font-size: 75%;
+    ol {
+      font-weight: 600;
+      //font-size: 1.5em;
+      ol {
+        font-weight: 400;
+        font-size: 1.0em;
+        ol {
+          font-weight: 200;
+        }
+      }
+    }
+  }
+}
